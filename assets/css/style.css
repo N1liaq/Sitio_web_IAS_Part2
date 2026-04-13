@@ -36,6 +36,13 @@ body {
   height: 250px; /* sirve para controlar la altura*/
 }
 
+.container {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  min-height: 100vh;
+  border: solid 1px;
+}
+
 .enlaces {
   background-color: rgb(252, 245, 196);
 

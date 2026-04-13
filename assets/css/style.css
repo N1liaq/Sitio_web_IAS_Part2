@@ -37,6 +37,7 @@ body {
 }
 
 .container {
+  background-color: rgba(190, 218, 218, 0.924);
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   min-height: 100vh;
@@ -110,7 +111,11 @@ footer {
 }
 
 .partebaja {
-  background-color: #405722de;
+  background-color: #617548f1;
+  display: flex;
+  flex-direction: vertical;
+  justify-content: center;
+  align-items: center;
   height: 100px;
   margin-top: 200px; /*sirve para mover el elemento completo de arriba (descendiente) o abajo (ascendente)*/
 }

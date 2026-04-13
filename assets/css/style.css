@@ -17,7 +17,7 @@
 
 .img_ais {
   position: absolute;
-  top: 2410px;
+  top: 1900px;
   left: 1050px;
 }
 
@@ -327,14 +327,15 @@ th {
   font-size: 30px;
   font-weight: bold;
 
-  margin: 0 290px;
   margin-top: 80px;
+  margin: 24px;
 
   border-style: double;
   border-width: 8px;
   border-color: #d295d4b4;
   border-radius: 40px;
 
+  list-style: none;
   line-height: 45px;
   width: 400px;
 }
@@ -373,6 +374,12 @@ th {
   width: 600px;
 }
 
+.funcion_IAS_division {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
 .compromiso_Responsabilidad_Social {
   color: #000000;
   background-color: #ffffff;
@@ -404,6 +411,7 @@ th {
   width: 1200px;
   padding: 20px;
 }
+
 .p_Regulacion_Control {
   background-color: #ffffff;
   text-align: justify;
@@ -414,11 +422,10 @@ th {
   border-radius: 40px;
   border-color: #86aa76;
 
-  margin: 20px auto;
-  margin-top: 20px;
-  width: 1200px;
+  width: 900px;
   padding: 20px;
 }
+
 .p_Apoyo_Comunidad {
   background-color: #ffffff;
   text-align: justify;
@@ -429,8 +436,7 @@ th {
   border-radius: 40px;
   border-color: #86aa76;
 
-  margin: 20px auto;
-  width: 1200px;
+  width: 900px;
   padding: 20px;
 }
 .p_Gestion_Recursos {
@@ -443,8 +449,7 @@ th {
   border-radius: 40px;
   border-color: #86aa76;
 
-  margin: 20px auto;
-  width: 1200px;
+  width: 900px;
   padding: 20px;
 }
 .p_Asistencia_social {
@@ -457,8 +462,7 @@ th {
   border-radius: 40px;
   border-color: #86aa76;
 
-  margin: 20px auto;
-  width: 1200px;
+  width: 900px;
   padding: 20px;
 }
 
@@ -472,8 +476,7 @@ th {
   border-radius: 40px;
   border-color: #86aa76;
 
-  margin: 20px auto;
-  width: 1200px;
+  width: 900px;
   padding: 20px;
 }
 

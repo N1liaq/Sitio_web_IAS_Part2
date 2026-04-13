@@ -556,35 +556,38 @@ th {
   width: 200px;
 }
 
-form {
-  margin: 80px 100px;
-  margin-top: 10px 10px;
-  width: 340px;
-
-  padding: 15px;
-
-  border: 1px solid #ccc;
-  border-width: 2px;
-  border-radius: 15px;
-
-  background-color: #d4e0d2;
+#formulario-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 60px 30px;
 }
 
-label {
-  text-align: right;
-  margin-right: 100px;
+label,
+input,
+select,
+textarea,
+button {
+  display: flex;
+  width: 100%;
 }
 
 input,
 textarea {
   font-weight: 15px;
-  width: 300px;
   border: 2px solid #928484;
+  border-radius: 8px;
+  width: 1000px;
+  font-size: 15px;
 }
 
 input:focus,
 textarea:focus {
   border-color: #000;
+}
+
+option {
+  font-size: 15px;
 }
 
 button {
@@ -597,6 +600,7 @@ button {
 summary {
   font-weight: bold;
 }
+
 details {
   background-color: #ffffff;
   text-align: justify;
@@ -608,7 +612,7 @@ details {
   border-radius: 40px;
   border-color: #86aa76;
 
-  margin: 0px 60px;
+  margin: 60px;
   width: 400px;
   padding: 20px;
 }

@@ -49,6 +49,7 @@ body {
   font-weight: bold;
   text-align: center;
   font-size: 25px;
+  line-height: 2px;
 
   border-style: inset;
   border-color: rgba(228, 180, 108, 0.877);
@@ -57,6 +58,14 @@ body {
   margin: 0px auto;
   height: auto;
   padding: 20px;
+}
+
+.division_enlaces {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .nav_titulo_principal {

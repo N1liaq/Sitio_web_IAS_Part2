@@ -1,0 +1,136 @@
+<!-- Página: Contactos del IAS
+  Descripción: Subpágina del sitio web del IAS
+  Autor: Yanet Osorio
+  Fecha: 06.04.26 -->
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="assets/Img/logo_IAS.png" alt="logo" width="500px" />
+    </div>
+    <div class="logo_gob">
+      <img src="assets/Img/logo_gob.png" alt="logo" width="500px" />
+    </div>
+    <div class="ias_img">
+      <img src="assets/Img/frente_ias_dia.jpg" alt="logo" width="600px" />
+    </div>
+
+    <header>
+      <div class="Contenedor">
+        <br />
+       <div class="nav_titulo_principal">
+          <h1>Instituto de Asistencia Social - IAS</h1>
+        </div>
+        <div class="nav_subtitulo_principal">
+          <h2>Organismo de Control de Juegos de Azar - Formosa</h2>
+        </div>
+      </div>
+      </div>
+      <div class="enlaces">
+        <nav>
+          <a href="sobre-ias.html"> Sobre IAS </a>
+          <a href="index.html"> Inicio </a>
+          <a href="funciones.html"> Funciones </a>
+        </nav>
+      </div>
+      <div class="ubicacion">
+        <nav>
+          <p>
+            <a href="https://maps.app.goo.gl/dYuZEA5Y8YgkJtSCA"> Ubicación</a>
+          </p>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="t_Contacto"><h2>Contacto</h2></div>
+      <div class="contact">
+        <section>
+          <h3>Dirección</h3>
+          <address>
+            Instituto de Asistencia Social (IAS) - Formosa Belgrano 798, Formosa
+            Capital, CP P3600COR 📍.
+          </address>
+          <h3>Teléfonos</h3>
+          <p>+54 370 4426114 y +54 370 4429568.</p>
+          <h3>Correo electrónico</h3>
+          <div class="gmail">
+            <a href="mailto:info@ias.gob.ar">info@ias.gob.ar </a>
+          </div>
+        </section>
+      </div>
+      <form action="#" method="post">
+        <!-- sirve para definir como va a ser la configuración del formulario, Method=”post” envia los datos de forma segura dentro del cuerpo de la petición sin mostrar la URL y Action=”#  envia los datos al fragmento de la página actual, lo que hace recargar o saltar al inicio. -->
+        <fieldset>
+          <!--se utiliza para agrupar los elementos relacionados en el formuario -->
+          <label for="nombre"> Nombre: </label>
+          <input
+            type="text"
+            placeholder="Por ejemplo, Pablo"
+            id="nombre"
+            required
+          />
+          <!-- aquí se definirá el id y el tipo de la variable, también si es un campo obligatorio o no, etc. -->
+          <br />
+          <br /><!-- Es un salto de línea, que permite iniciar una nueva línea sin crear un nuevo párrafo ni agregar un espacio extra entre elementos. -->
+
+          <label for="email"> Email: </label>
+          <input
+            type="email"
+            placeholder="Por ejemplo, Juan123@gmail.com"
+            id="email"
+            required
+          />
+          <br />
+          <br />
+          <label for="teléfono"> Teléfono: </label>
+          <input
+            type="tel"
+            placeholder="Por ejemplo, 3704..."
+            id="Teléfono"
+            required
+          />
+          <br />
+          <br />
+          <label for="consulta"> Motivo de consulta:</label>
+          <select id=" consulta">
+            <!-- es un control que representa un menú desplegable de opciones. -->
+            <option disabled selected>Selecione una opción</option>
+            <!-- se utiliza para definir cada una de las opciones seleccionables dentro de un menú desplegable. -->
+            <option>Juegos y sorteos</option>
+            <option>gestión de permisos y trámites</option>
+            <option>Seguridad y prevención</option>
+          </select>
+          <br />
+          <br />
+          <label for="mensaje"> Mensaje: </label>
+          <textarea id="mensaje" name="mensaje"></textarea>
+          <!--sirve para que el usuario pueda escribir libremente. -->
+          <br />
+          <br />
+          <button type="submit">Enviar</button>
+          <!-- Es un control interactivo para los usuario puedan realizar acciones, enviar el formulario o reestablecer lo escrito. -->
+          <button type="reset">Limpiar</button>
+        </fieldset>
+      </form>
+      <div class="Horarios">
+        <details>
+          <summary>Horarios de atención extendidos</summary>
+          Te la creiste, no hay. Tenes que contactarte
+        </details>
+      </div>
+    </main>
+    <div class="partebaja">
+      <footer>
+        Gobierno de la Provincia de Formosa · República Argentina Todos los
+        Derechos Reservados © 2026
+      </footer>
+    </div>
+  </body>
+</html>

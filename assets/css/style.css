@@ -6,7 +6,7 @@
 .logo_gob {
   position: absolute; /* para sobreponer los elementos*/
   top: 35px; /* para mover abajo en numeros ascendentes o arriba en numeros descendientes*/
-  left: 1380px; /* para mover de izquierda a derecha*/
+  left: 1570px; /* para mover de izquierda a derecha*/
 }
 
 .logo {
